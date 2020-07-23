@@ -1,7 +1,7 @@
 # Akiraka
 Web application (ASP.Net)/ Revelare (Crime Sharing)
 The Website is built on ASP.NET
-# The features that are need to be added are:
+# The features that are needed to be added are:
 1) Responsiveness, Mobile Friendly.
 2) Location accessing and Geolocation 
 3) Fix layout and modernize (Add Material Design/Cupertino)
