@@ -1,0 +1,263 @@
+﻿body {
+    background: url(Images/Revelare_Home.jpg)
+}
+.box:hover{
+    opacity: 0.5;
+}
+.box {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 600px;
+    border-radius:25px;
+    background: rgba(255,255,255,0.9);
+}
+
+
+#TextBox1 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: left;
+    border-radius: 75px;
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+}
+#TextBox2 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: left;
+    padding: 5px;
+    border-radius: 75px;
+    background: rgba(255,255,255,0.5);
+}
+#TextBox3 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: left;
+    border-radius: 75px;
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+}
+
+#TextBox4 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: left;
+    padding: 5px;
+    border-radius: 75px;
+    background: rgba(255,255,255,0.5);
+}
+
+#TextBox5 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: left;
+    padding: 5px;
+    border-radius: 75px;
+    background: rgba(255,255,255,0.5);
+}
+
+#TextBox6 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: left;
+    padding: 5px;
+    border-radius: 75px;
+    background: rgba(255,255,255,0.5);
+}
+#TextBox7 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: left;
+    padding: 5px;
+    border-radius: 75px;
+    background: rgba(255,255,255,0.5);
+}
+
+#TextBox11 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.5);
+}
+#TextBox22 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.5);
+}
+#TextBox33 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.5);
+}
+
+
+
+
+
+
+
+#Button1:hover {
+    opacity: 0.8;
+}
+#Button2:hover {
+    opacity: 0.8;
+}
+#Button1 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: center;
+    background-color: white;
+    border-radius: 75px;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+#Button11 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+#Button2 {
+    border-style: hidden;
+    border-color: inherit;
+    border-width: medium;
+    text-align: center;
+    background-color: white;
+    border-radius: 75px;
+    padding: 5px;
+}
+#Label2 {
+    font-size: medium;
+    color:white;
+    padding: 5px;
+    text-align: center;
+    font-family:Consolas;
+   
+}
+#Label3 {
+    padding: 5px;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    font-family: Consolas;
+}
+#Label4 {
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Maiandra GD';
+}
+#Label5 {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Consolas;
+}
+#Label6 {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Consolas;
+}
+#Label7 {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+   
+    text-align: center;
+    font-family: Consolas;
+}
+
+#Label8 {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Consolas;
+}
+
+#Label9 {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Consolas;
+}
+
+#Label10 {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Consolas;
+}
+
+#Label11 {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Consolas;
+}
+ 
+
+#loginform {
+    width: 480px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 476px;
+    background: rgba(0,0,0,0.5);
+}
+
+#label1 {
+    text-align: center;
+}
+
+
+
+#regform {
+    width: 480px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 600px;
+    margin-top: 100px;
+    height: 476px;
+    background: rgba(0,0,0,0.5);
+}
+
+
+

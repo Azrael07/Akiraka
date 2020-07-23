@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication5.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="mycss.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="headercolor">
+        <header id="header" ">
+        <h1 style="height: 30px">Revelare<asp:ImageButton ID="ImageButton1" runat="server" OnClick="ImageButton1_Click1" Height="40px" ImageUrl="~/Images/User_Icon.png" Width="40px" ImageAlign ="right" BorderStyle="None"/>
+            </header>
+        <header id ="SideHeader"> 
+            <asp:Label ID="LoginNotify" runat="server" visble=false Font-Names="Calibri" ForeColor="#3399FF"></asp:Label> <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">LOGOUT</asp:LinkButton>
+            </header></div>
+
+    <nav id ="nav">
+        <ul>
+            <li><a href="HomeCustomer.aspx">Home</a></li>
+            <li><a href="Broadcast.aspx">Broadcast</a></li>
+            <li><a href="Infographics.aspx">Infographics</a></li>
+            <li><a href="Report.aspx">Report</a></li>
+            <!--<li><a href="Webform1.aspx">login</a></li>-->
+            </ul>
+    </nav>
+    
+        <aside id="side">
+    </aside>
+    
+    
+        <div id="con">
+            <div id="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder>
+                <br />
+        </div>
+            </div>
+
+
+
+        <div id="card">
+         
+            <div id="infophoto">
+                <div id="infotext">
+                   
+                    </div>
+                    </div>
+   
+        </div>
+
+        
+        
+        
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footerdiv">
+            <footer id="footer">© 2020 Revelare By Burhan</footer>
+        </div>
+    </form>
+</body>
+</html>
